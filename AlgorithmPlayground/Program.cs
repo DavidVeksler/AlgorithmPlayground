@@ -4,9 +4,11 @@ namespace AlgorithmPlayground
 {
     class Program
     {
+        //http://www.uomisan.edu.iq/library/admin/book/19226579694.pdf
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            AlgorithmPlayground.StringSortNaive1.Sort1();
         }
     }
 }
