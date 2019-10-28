@@ -9,6 +9,8 @@ namespace Tests
     {
         private int[] unsortedNumbers = { 1, 2, 3, 4, 5, 2, 2, 2, 2 };
 
+        private string helloWorld = "hello world";
+
         [Fact]
         public void Test1()
         {
@@ -38,6 +40,22 @@ namespace Tests
         {
             var result = Algorithms2.FindMajorityNumberInUnsortedArrayV4(unsortedNumbers);
             Xunit.Assert.Equal(2, result);
+
+        }
+
+        [Fact]
+        public void Test5()
+        {
+            var result = StringReverse.ReverseString(helloWorld);
+            Xunit.Assert.Equal(result, "dlrow olleh");
+
+        }
+
+        [Fact]
+        public void Test6()
+        {
+            var result = StringReverse.ReverseStringV2(helloWorld);
+            Xunit.Assert.Equal(result, "dlrow olleh");
 
         }
     }

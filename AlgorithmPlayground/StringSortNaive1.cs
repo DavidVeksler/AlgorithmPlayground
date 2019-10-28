@@ -27,12 +27,11 @@ namespace AlgorithmPlayground
                         array[i] = temp;
                     }
                 }
-                
             }
 
             Debug.WriteLine(new string(array));
             Console.WriteLine(new string(array));
-          //  Console.ReadKey();
+          
 
 
         }
